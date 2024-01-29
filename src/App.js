@@ -1,18 +1,17 @@
 import './App.css';
-import { Layout, Menu } from 'antd';
+import { Layout } from 'antd';
+import AppHeader from './components/Header';
 
-const { Header } = Layout;
+
 
 function App() {
+  const { Header } = Layout;
+
   return (
-    <Layout className="layout">
+    <Layout className="mainLayout">
     <Header>
-      <div className="logo" />
-      <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
-        <Menu.Item key="1">Home</Menu.Item>
-        <Menu.Item key="1">About</Menu.Item>
-        <Menu.Item key="1">Services</Menu.Item>
-      </Menu>
+      <AppHeader />
+      
     </Header>
     </Layout>
   );
