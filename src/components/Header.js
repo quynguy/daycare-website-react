@@ -14,7 +14,6 @@ const AppHeader = () => {
                 <Menu.Item key="1">About</Menu.Item>
                 <Menu.Item key="1">Programs</Menu.Item>
                 <Menu.Item key="1">Enrollment</Menu.Item>
-                <Menu.Item key="1">Curriculum</Menu.Item>
                 <Menu.Item key="1">FAQs</Menu.Item>
                 <Menu.Item key="1">Contact Us</Menu.Item>
             </Menu>
