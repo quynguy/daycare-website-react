@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './Views/Hero';
 import About from './About';
 import Feature from './Feature';
+import Enrollment from './Enrollment';
 
 
 
@@ -11,6 +12,7 @@ const Home = () => {
         <Hero/>
         <About />
         <Feature />
+        <Enrollment />
     </div>
   );
 };
