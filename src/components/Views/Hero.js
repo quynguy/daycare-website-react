@@ -32,8 +32,6 @@ const Hero = () => {
                 <div className="binHolder">
                   <Button type="primary" size="large">Programs</Button>
                   <Button size="large"> Curriculum</Button>
-                  
-
                 </div>
               </div>
             </div>
