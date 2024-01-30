@@ -34,7 +34,7 @@ const FAQ = () => {
             <div className="quickSupport">
                 <h3>Require further assistance?</h3>
                 <p>Don't hesitate to reach out to us. Our staff will be happy to assist.</p> 
-                <Button type="primary" size="large"> Email Us </Button>
+                <Button type="primary" size="large"> Call Us </Button>
             </div>
         </div>
     </div>
