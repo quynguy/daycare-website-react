@@ -3,6 +3,7 @@ import Hero from './Views/Hero';
 import About from './About';
 import Feature from './Feature';
 import Enrollment from './Enrollment';
+import FAQ from './FAQ';
 
 
 
@@ -13,6 +14,7 @@ const Home = () => {
         <About />
         <Feature />
         <Enrollment />
+        <FAQ />
     </div>
   );
 };
