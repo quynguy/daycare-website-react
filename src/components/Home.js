@@ -8,7 +8,6 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 
-
 const Home = () => {
   return (
     <div className="main">
@@ -18,7 +17,6 @@ const Home = () => {
         <Enrollment />
         <FAQ />
         <Contact />
-        <Footer />
     </div>
   );
 };

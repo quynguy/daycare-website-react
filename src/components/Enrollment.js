@@ -19,7 +19,7 @@ class Enrollment extends React.Component {
 
     render () {
         return (
-            <div className="block worksBlock">
+            <div id="enrollment" className="block worksBlock">
                 <div className="container-fluid">
                     <div className="titleHolder">
                         <h2> Enrollment Process </h2>

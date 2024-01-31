@@ -1,11 +1,11 @@
 import React from 'react'
 import { Row, Col } from 'antd';
-import image1 from '../assets/images/bilingual-storytime.jpg';
-import image2 from '../assets/images/cultural-enrichment-activities.jpg';
+import image1 from '/root/SEI/projects/daycare-landing-page/src/assets/images/bilingual.jpg';
+import image2 from '/root/SEI/projects/daycare-landing-page/src/assets/images/cultural-enrichment.webp';
 import image3 from '../assets/images/language-immersion-classes.jpg';
 import image4 from '../assets/images/multicultural-events.jpg';
 import image5 from '../assets/images/language-clubs.jpg';
-import image6 from '../assets/images/outdoor-exploration.jpg';
+import image6 from '/root/SEI/projects/daycare-landing-page/src/assets/images/outdoor-exploration.jpg';
 
 import { Card } from 'antd';
 const { Meta } = Card;
@@ -13,7 +13,7 @@ const { Meta } = Card;
 
 const Feature = () => {
   return (
-    <div className="block featureBlock bgGray">
+    <div id="programs" className="block featureBlock bgGray">
         <div className="container-fluid">
             <div className="titleHolder">
                 <h2>Our Programs</h2>
@@ -28,21 +28,21 @@ const Feature = () => {
                 </Col>
 
                 <Col span={8}> 
-                    <Card hoverable cover= {<img alt="Cultural Enrichment Activities" src={image1} />}
+                    <Card hoverable cover= {<img alt="Cultural Enrichment Activities" src={image2} />}
                     >
                         <Meta title="Cultural Enrichment Activities" />
                     </Card>
                 </Col>
 
                 <Col span={8}> 
-                    <Card hoverable cover= {<img alt="Language Immersion Classes" src={image1} />}
+                    <Card hoverable cover= {<img alt="Language Immersion Classes" src={image3} />}
                     >
                         <Meta title="Language Immersion Classes" />
                     </Card>
                 </Col>
 
                 <Col span={8}> 
-                    <Card hoverable cover= {<img alt="Outdoor Exploration and Nature Learning" src={image4} />}
+                    <Card hoverable cover= {<img alt="Outdoor Exploration and Nature Learning" src={image6} />}
                     >
                         <Meta title="Outdoor Exploration and Nature Learning" />
                     </Card>
@@ -56,7 +56,7 @@ const Feature = () => {
                 </Col>
 
                 <Col span={8}> 
-                    <Card hoverable cover= {<img alt="Multicultural Events" src={image1} />}
+                    <Card hoverable cover= {<img alt="Multicultural Events" src={image4} />}
                     >
                         <Meta title="Multicultural Events" />
                     </Card>

@@ -4,7 +4,7 @@ const { TextArea } = Input;
 
 const Contact = () => {
   return (
-    <div className="block contactBlock">
+    <div id="contact" className="block contactBlock">
         <div className="container-fluid">
             <div className="titleHolder">
                 <h2>Contact Us</h2>
@@ -57,8 +57,8 @@ const Contact = () => {
                 },
                 ]}
             >
-                <Checkbox>
-                I have read the agreement
+                <Checkbox className="check">
+                I have read the terms and conditions
                 </Checkbox>
             </Form.Item>
 

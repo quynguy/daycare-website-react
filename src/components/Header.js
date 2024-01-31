@@ -1,22 +1,23 @@
 import React from 'react';
-import { Menu } from 'antd';
+import { Anchor } from 'antd';
+
+const { Link } = Anchor;
 
 const AppHeader = () => {
   return (
     <div className="container-fluid">
         <div className="header">
             <div className="logo">
-                <span class="material-symbols-outlined"> dictionary</span>
                 <a href="http://www.google.com">Polyglot Pages Preschool</a>
             </div>
-            <Menu mode="horizontal" defaultSelectedKeys={['home']}>
-                <Menu.Item key="1">Home</Menu.Item>
-                <Menu.Item key="1">About</Menu.Item>
-                <Menu.Item key="1">Programs</Menu.Item>
-                <Menu.Item key="1">Enrollment</Menu.Item>
-                <Menu.Item key="1">FAQs</Menu.Item>
-                <Menu.Item key="1">Contact Us</Menu.Item>
-            </Menu>
+            <Anchor targetOffset="65">
+              <Link href="#home" title="Home" />
+              <Link href="#about" title="About Us" />
+              <Link href="#programs" title="Programs" />
+              <Link href="#enrollment" title="Enrollment" />
+              <Link href="#faq" title="FAQs"  />
+              <Link href="#contact" title="Contact Us" />
+            </Anchor>
         </div>
     </div>
   );
