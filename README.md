@@ -1,4 +1,4 @@
-Polygot Pages Preschool
+Polygot Pages Preschool <br>
 Designing a landing page for a fictional preschool using React Create App for practice.
 
 Envisioning a preschool that prioritizes the cultivation of a rich multilingual atmosphere where children can truly flourish. Through the dedication of educators and the implementation of an engaging curriculum, Polygot Pages aim to instill in young learners a deep appreciation for language diversity and global perspectives. The mission is to spark a lasting love for learning and promote cross-cultural understanding among students.
